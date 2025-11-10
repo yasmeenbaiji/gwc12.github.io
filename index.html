@@ -1,0 +1,69 @@
+<!-- index.html: this is the homepage -->
+
+<!-- This is how to write a comment in HTML
+    You can refer to the GWC workshop for an example of html website 
+    Also, if using VSCode, would recommend adding the extension: 
+    Live Preview (by Microsoft) -->
+
+
+
+<!-- This is necessary to have in all html docs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- All HTML docs should have a head and body -->
+<head>
+    <meta charset="UTF-8" />
+    <title> Homepage </title> <!-- This is the tab name-->
+    <link rel="stylesheet" href="format.css" /> <!--Connect to CSS styling-->
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+
+<body>
+     <!-- Header -->
+    <header>
+        <h1 style="text-align: center;">Base Pair Decoder</h1>
+        <header class="topbar"></header>
+    </header>
+
+
+
+        <!--Example of div -->
+        <div class="nav-bar">
+
+
+
+            <div id="homepage" style="text-align: center;"> <!--TODO CSS: style-->
+
+
+
+                     <ul class="nav-list">
+                                        <li>
+                                        <a href="complementary-strand.html" class="nav-btn">➜</a>
+
+                                        <h4>Complementary<br>Pairing</h4>
+                                        </li>
+                                        <li>
+                                        <a href="composition-calculator.html" class="nav-btn">➜</a>
+                                        <h4>Composition<br>Calculator</h4>
+                                        </li>
+                                        <li>
+                                        <a href="thermal-denaturation.html" class="nav-btn">➜</a>
+                                        <h4>Thermal<br>Denaturation</h4>
+                                    </li>
+                                </ul>
+            </div>
+        </main>
+
+
+     <!-- Footer -->
+     <footer class="bottombar">
+      <h4>GWC Fall 2025 Project | Team 12</h4>
+       <a href="sources.html" class="sources-link">Sources</a>
+    </footer>
+
+    <!--Javascrip connection -->
+    <script src="script.js"></script>
+</body>
+</html>
