@@ -9,7 +9,7 @@ document.getElementById('enter_button_thermal').addEventListener('click', functi
 
   if (sequence1.length !== sequence2.length || !isValidDNA(sequence1) || !isValidDNA(sequence2)) {
     outputElement.textContent =
-      'Both sequences must match in length under 35 characters and contain only A, T, G, C.';
+      'Both sequences must match in length, be under 32 characters, and contain only A, T, G, C.';
     return;
   }
 
