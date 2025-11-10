@@ -189,22 +189,22 @@ main {
 
 .rna_dna {
   display: flex;
-  flex-direction: column;      /* label on top, buttons below */
-  align-items: center;       /* hug the right edge */
-  gap: 0.4rem;                 /* space between label and buttons */
+  flex-direction: column;      
+  align-items: center;       
+  gap: 0.4rem;                 
   padding-right: 1rem;   
   width: max-content;    
   margin-left: auto;
   margin-top: 3rem;
 }
 
-/* small horizontal row for the two buttons */
+
 .toggle-row {
   display: flex;
-  gap: 0.5rem;                 /* space between buttons */
+  gap: 0.5rem;                 
 }
 
-/* label styling */
+
 .toggle-label {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
@@ -315,7 +315,7 @@ main {
   margin-top:5rem;
 }
 
-.enzymes-grid h4, {
+.enzymes-grid h4{
   margin:0rem 0 0;
   font:600 1.6rem/1.2 Helvetica, Arial, sans-serif;
   color:#fff;
