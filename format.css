@@ -442,6 +442,7 @@ color: #FFF;
 .enzyme-blurb p{
   margin:0 0 1rem;
 }
+
 .enzyme-blurb p:last-child{
   margin-bottom:0;        
 }
