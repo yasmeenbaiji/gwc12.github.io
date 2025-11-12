@@ -426,3 +426,22 @@ color: #FFF;
   font-family: Helvetica, Arial, sans-serif;
   margin-bottom: 2rem;
 } 
+
+
+
+.enzyme-blurb{
+  display:inline-block;             
+  background:#ffffff80;             
+  border:2px solid #1168B1;         
+  border-radius:6px;
+  padding:1rem 1.5rem;
+  max-width:40rem;                  
+}
+
+
+.enzyme-blurb p{
+  margin:0 0 1rem;
+}
+.enzyme-blurb p:last-child{
+  margin-bottom:0;        
+}
